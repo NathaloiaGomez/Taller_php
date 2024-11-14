@@ -1,0 +1,17 @@
+PHP 8.0:
+JIT (Just In Time Compilation): Mejora el rendimiento, especialmente en aplicaciones con cálculos intensivos.
+Atributos (Anotaciones): Permite agregar metadatos a clases, funciones, métodos y propiedades de manera estructurada (#[...]).
+Union Types: Permite que un parámetro o valor de retorno acepte múltiples tipos de datos (ej. int|string).
+Match Expression: Similar a switch, pero con comparación estricta (===) y sin necesidad de break.
+Named Arguments: Permite pasar argumentos a funciones usando el nombre del parámetro, mejorando la legibilidad.
+Constructor Property Promotion: Simplifica la creación de clases al declarar y asignar propiedades en el constructor directamente.
+Nullsafe Operator (?->): Evita errores al acceder a métodos/properties de objetos null.
+Mejoras en manejo de errores: Los errores fatales ahora pueden manejarse como excepciones.
+PHP 8.1:
+Fibers: Soporta ejecución cooperativa para tareas asíncronas, útil en concurrencia.
+Readonly Properties: Propiedades que solo se pueden asignar una vez (en el constructor).
+Intersection Types: Permite especificar que un valor debe ser de múltiples tipos a la vez.
+Enum Classes: Introduce enumeraciones (valores constantes) de manera nativa.
+Array Unpacking con claves de tipo string: Ahora es posible hacer unpacking de arrays con claves de tipo string.
+Mejoras de rendimiento: Optimiza la ejecución de funciones y la recolección de basura.
+Deprecación de funciones obsoletas: Se empiezan a eliminar funciones antiguas como mysql_* (se recomienda usar mysqli o PDO).
